@@ -1,0 +1,53 @@
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.fondo-nav{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.logotipo{
+    width: 100px;
+    height: 100px; 
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .horizonte_a:hover{
+    transition: all 0.5s ease;
+    color: coral;
+    font-size: 18px;
+  }
+
+  .menu-vertical:hover{
+    background-color: coral;   
+  }
+
+  /* carrusel corazones*/
+
+  .tamaño_imagenes{
+    width: 400px;
+    height: 400px; 
+  }
+
+  .texto_botón{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .texto_botón:hover{
+    transition: all 0.5s ease;
+    font-size: 20px;
+    color: black;
+    
+  }
